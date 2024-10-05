@@ -19,8 +19,7 @@ jobs:
       # Step 2: Set up .NET SDK (specify the .NET version)
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '4.5.2'  # Specify the .NET version (use the version your project requires)
+
 
       # Step 3: Restore dependencies
       - name: Restore dependencies
